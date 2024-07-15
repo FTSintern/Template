@@ -3,9 +3,9 @@ function toggleDarkMode() {
 
 
     // Example: Change color of text elements with different classes
-    const changeColorElements = document.querySelectorAll('.contenttext, .contentheading, .line2, .aboutparagraph, .review , .reviewer , .card-titles');
+    const changeColorElements = document.querySelectorAll('.contenttext, .contentheading, .line2, .aboutparagraph, .review , .reviewer , .card-titles , .modal , .nav-link ');
     const changeColorElementsDark = document.querySelectorAll('.mode, .hero-main, .hero-paragraph, .appointmentheading, .btn-block, .custom-info-text, .card-texts');
-    const changeBgElements = document.querySelectorAll('.testimonial-card, .appointment-from , .custom-info-card , .feature-item , .service-card');
+    const changeBgElements = document.querySelectorAll('.testimonial-card, .appointment-from , .custom-info-card , .feature-item , .service-card , .modal-body , .modal-header ');
 
     changeColorElements.forEach(element => {
         if (document.body.classList.contains('dark-mode')) {
