@@ -203,6 +203,30 @@
 
         }
 
+        .contact-iconss {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-iconss i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #007bff;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 20%;
+            margin-right: 10px;
+        }
+
+        .contact-iconss i:hover {
+
+            background-color: #e5e5e6;
+            color: var(--primary-color);
+
+        }
+
 
         .footer .content {
 
@@ -312,7 +336,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 d-none d-md-flex align-items-center justify-content-end">
-                    <a class="th-btn th_btn style3 snipcss-jvys5">Request a quote</a>
+                    <a class="th-btn th_btn style3 snipcss-jvys5 padding">Request a quote</a>
                 </div>
                 <div class="col-6 col-md-3 d-md-none text-center contact-info">
                     <a class="pb-5 icons smallscreen" type="button" id="menuToggle" data-toggle="modal"
@@ -365,7 +389,7 @@
             <div class="modal-dialog modal-fullscreen" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="menuModalLabel">Menu</h5>
+                        <img src="assets/images/logo.png" alt="Company Logo" class="img-fluid">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -391,7 +415,37 @@
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
+                        <h2 class="heading text-left mt-2">Contact Us</h2>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link contact-iconss" href="#"><i class="fas fa-envelope"></i>
+                                    email@gmail.com</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link contact-iconss" href="#"><i class="fas fa-map-marker-alt"></i> New
+                                    York, United
+                                    States</a>
+                            </li>
+                        </ul>
+                        <div style="margin-top: 7%;">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <span class="contact-iconss"><a href="#"><i
+                                                class="fab fa-facebook-f"></i></a></span>
+                                </li>
+                                <li class="list-inline-item">
+                                    <span class="contact-iconss"><a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <span class="contact-iconss"><a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <span class="contact-iconss"><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -442,7 +496,7 @@
             <div class="hero-content container">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 order-lg-1">
-                        <h5 class="section-title line">Sparkling Davis</h5>
+                        <h5 class="section-title line blue-line">Sparkling Davis</h5>
                         <h1 class="hero-text hero-main">Feeling Adventurous?</h1>
                         <p class="hero-text hero-paragraph">Let us tackle your challenging pool project and turn your
                             vision
@@ -450,7 +504,7 @@
                             stunning reality!</p>
                         <div class="btn-group slideinup th-animated snipcss-ZCnLT style-Zkm92" data-ani="slideinup"
                             data-ani-delay="0.5s" id="style-Zkm92">
-                            <a class="th-btn th_btn style4" tabindex="0">
+                            <a class="th-btn th_btn style4  responsive" tabindex="0">
                                 <h6 class="mt-1">Discover
                                     <span class="d-none d-sm-inline">More</span>
                                 </h6>
@@ -528,9 +582,10 @@
 
         <div class="container generalcontainer">
             <div class="text-left mb-5">
-                <p class="section-title line">Our Best Services <span>_____________</span></p>
+                <p class="section-title line blue-line">Our Best Services</p>
                 <p class="h1 line2 modes">Top-notch Pool Services Await You!</p>
             </div>
+
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-4">
                 <div class="col pr-2">
                     <div class="card service-card">
@@ -548,7 +603,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col pr-2">
+                <div class="col pr-2 smallgap">
                     <div class="card service-card">
                         <div class="card-body">
                             <div class="icon mb-3">
@@ -563,7 +618,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col pr-2">
+                <div class="col pr-2 mt-md-3 mt-lg-0 smallgap">
                     <div class="card service-card">
                         <div class="card-body">
                             <div class="icon mb-3">
@@ -579,7 +634,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col pr-2">
+                <div class="col pr-2 mt-md-3 mt-lg-0 smallgap">
                     <div class="card service-card">
                         <div class="card-body">
                             <div class="icon mb-3">
@@ -609,8 +664,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 about-text">
-                    <p class="section-title line">Learn More About Our Company <span>___________</span></p>
-                    <h2 class=" line2">Experience unparalleled excellence in pool installation and remodeling with
+                    <p class="section-title line text-md-left">Learn More About Our Company</p>
+                    <h2 class="line2">Experience unparalleled excellence in pool installation and remodeling with
                         our
                         enduring tradition
                         of superior service.</h2>
@@ -711,8 +766,7 @@
             <div class="container my-5 generalcontainer">
                 <div class="row">
                     <div class="col-md-12 textsection">
-                        <p class="section-title line text-center"> <span>_____</span> Learn More About Our Company
-                            <span>_____</span>
+                        <p class="section-title line text-center"> Learn More About Our Company
                         </p>
                         <h2 class="line2">Experience unparalleled excellence in pool installation and
                             remodeling
@@ -720,7 +774,8 @@
                             enduring
                             tradition
                             of superior service.</h2>
-                        <p>Our team comprises certified technicians with extensive experience in pool remodeling and
+                        <p class="card-text">Our team comprises certified technicians with extensive experience in pool
+                            remodeling and
                             servicing.
                             We remain abreast of industry trends. Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit.
@@ -728,18 +783,12 @@
                             veniam,
                             hic blanditiis itaque quia labore, ipsum minima consectetur laborum.
                         </p>
-                        <!-- //list -->
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> <span>Free Consultation</span>
-                            </li>
-                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> <span>Customized Solutions</span>
-                            </li>
-                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> <span>Free Consultation</span>
-                            </li>
-                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> <span>Customized Solutions</span>
-                            </li>
-                        </ul>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur quod id non.
+                        <p class="card-text">Our team comprises <strong> Certified</strong> technicians with extensive
+                            experience in pool
+                            remodeling and
+
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur
+                            quod id non.
                             Maxime
                             molestiae neque, dolor inventore dolorem libero amet sapiente deleniti, eligendi distinctio
                             culpa.
@@ -752,7 +801,7 @@
             <!-- //gallery section  -->
 
             <section class="container bggallery generalcontainer">
-                <p class="section-title lions text-center  "> <span>_____</span> Gallery <span>_____</span></p>
+                <p class="section-title lions text-center  "> Gallery </p>
 
                 <h2 class="line2 text-center">Our Work</h2>
                 <div class="row gallery">
@@ -791,7 +840,7 @@
             <div class="container mt-5 generalcontainer">
                 <div class="row">
                     <div class="col-lg-6 test-card">
-                        <p class="section-title line pl-2">Testimonials <span>_____________</span></p>
+                        <p class="section-title line blue-line">Testimonials </p>
                         <p class="font-weight-bold mb-4 line2 h2 feedback">Feedback from Our Clients</p>
                         <div class="testimonial-card d-flex align-items-center">
                             <div class="d-flex align-items-center ml-3">
@@ -850,8 +899,8 @@
 
                     <!-- Appointment Form Section -->
                     <div class="col-lg-6 d-flex justify-content-center">
-                        <div class="container">
-                            <p class="section-title line  text-center">Contact Information</p>
+                        <div class="container mtonsmall">
+                            <p class="section-title line  text-center blue-line ">Contact Information</p>
 
                             <!-- <h2 class="line2">Contact Information</h2> -->
                             <p class="custom-contact-subheading">We provide outstanding pool remodeling, cleaning, and
