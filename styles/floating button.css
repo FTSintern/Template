@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.3s ease; /* Transition for smooth color change */
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+
+.my-float {
+  margin-top: 22px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .float {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-mode .my-float {
+  color: #fff;
+}
