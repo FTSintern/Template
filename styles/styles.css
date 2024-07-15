@@ -257,7 +257,7 @@
   color: var(--primary-color);
   font-family: sans-serif;
   font-weight: 500px;
-  font-size: 18px;
+  font-size: 24px;
 }
 /* Media queries */
 @media (max-width: 450px) {
@@ -415,6 +415,12 @@
   .moreaboutsus {
 margin-left: 50%;  }
 }
+
+/* Media queries */
+@media (max-width: 768px) {
+  .moreaboutsus {
+font-size: 10px !important;  }
+}
 .about-text{
   font-family: sans-serif;
 
@@ -489,6 +495,33 @@ margin-left: 50%;  }
   display: inline-block;
 }
 .blue-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100px; 
+  height: 2px; 
+  background-color: #007bff;
+  margin-left: 10px; 
+  transform: translateY(-50%);
+}
+.bluelineboth{
+  position: relative;
+  display: inline-block;
+}
+.bluelineboth::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100px; 
+  height: 2px; 
+  background-color: #007bff;
+  margin-left: 10px; 
+  transform: translateY(-50%);
+}
+
+.bluelineboth::after {
   content: "";
   position: absolute;
   top: 50%;
