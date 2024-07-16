@@ -271,6 +271,7 @@
   font-family: sans-serif !important;
   font-weight: 700 !important;
   text-align: justify;
+  font-size: 36px;
 }
 
 /* Media queries */
@@ -499,7 +500,7 @@ font-size: 10px !important;  }
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 100px; 
+  width: 40px; 
   height: 2px; 
   background-color: #007bff;
   margin-left: 10px; 
@@ -509,28 +510,89 @@ font-size: 10px !important;  }
   position: relative;
   display: inline-block;
 }
-.bluelineboth::before {
+
+
+.bluelinebothsides {
+  position: relative;
+  left: 46%;
+  display: inline-block;
+
+}
+@media (max-width: 425px) {
+  .bluelinebothsides  {
+    left: 40%;
+
+  }
+}
+@media (max-width: 768px) {
+  .bluelinebothsides  {
+    left: 43%;
+
+  }
+}
+
+.bluelinebothsides::before,
+.bluelinebothsides::after {
   content: "";
   position: absolute;
   top: 50%;
-  left: 100%;
-  width: 100px; 
-  height: 2px; 
-  background-color: #007bff;
-  margin-left: 10px; 
+  width: 40px; /* Adjust as needed */
+  height: 2px; /* Adjust as needed */
+  background-color: #007bff; /* Adjust as needed */
   transform: translateY(-50%);
 }
 
-.bluelineboth::after {
+.bluelinebothsides::before {
+  left: -43px; /* Adjust as needed */
+}
+
+.bluelinebothsides::after {
+  right: -43px; /* Adjust as needed */
+}
+
+.newbluelines {
+  position: relative;
+  left: 38%;
+  display: inline-block;
+
+}
+@media (max-width: 425px) {
+  .newbluelines  {
+    left: 0%;
+
+  }
+}
+@media (max-width: 768px) {
+  .newbluelines  {
+    left: 1%;
+
+  }
+}
+@media (max-width: 768px) {
+  .newbluelines  {
+    left: 1%;
+
+  }
+}
+
+
+.newbluelines::before,
+.newbluelines::after {
   content: "";
   position: absolute;
   top: 50%;
-  left: 100%;
-  width: 100px; 
-  height: 2px; 
-  background-color: #007bff;
-  margin-left: 10px; 
+  width: 40px; /* Adjust as needed */
+  height: 2px; /* Adjust as needed */
+  background-color: #007bff; /* Adjust as needed */
   transform: translateY(-50%);
+}
+
+.newbluelines::before {
+  left: -43px; /* Adjust as needed */
+}
+
+.newbluelines::after {
+  right: -43px; /* Adjust as needed */
 }
 
 .mission-vision {
@@ -830,6 +892,7 @@ text-align: center;  }
   margin-bottom: 20px;
 
 }
+
 /* Media queries */
 @media (max-width: 577px) {
   .testimonial-card {
@@ -891,6 +954,18 @@ text-align: center;  }
   padding: 20px 5px;
   margin-bottom: 15px;
   max-width: 400px; 
+}
+/* Media queries */
+@media (max-width: 768px) {
+  .testimonial-card {
+max-width: 100%;
+ }
+}
+/* Media queries */
+@media (max-width: 425px) {
+  .testimonial-card {
+max-width: 400px;
+ }
 }
 
 .testimonial-card img {
@@ -1116,6 +1191,8 @@ textarea.form-control {
 @media (max-width: 425px) {
   .aboutparagraph {
 font-size: 16px;
+margin-left: 10px !important;
+margin-right: 10px !important;
 }
 }
 
@@ -1377,6 +1454,7 @@ body {
 @media (max-width: 768px) {
   .blue-line {
 margin-top: 20px;
+margin-right: 38%;
 }
 }
 

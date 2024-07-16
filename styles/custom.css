@@ -766,6 +766,24 @@ button:not(:disabled) {
     font-size: 10px !important;
   }
 }
+.paddings {
+  padding: 11px 30px !important;
+}
+/* media query  */
+@media (max-width: 991px) {
+  .paddings {
+    padding: 12px 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .paddings {
+    padding: 8px 25px !important;
+    font-size: 10px !important;
+  }
+}
+.responsive {
+  padding: 14px 30px !important;
+}
 @media (max-width: 768px) {
   .responsive {
     padding: 12px 22px !important;
