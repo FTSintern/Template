@@ -1,6 +1,10 @@
 :root {
   --primary-color: #007bff;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 .custom-header {
   background: linear-gradient(to right, var(--primary-color) 50%, #d8dde1 50%);
