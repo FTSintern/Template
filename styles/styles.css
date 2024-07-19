@@ -650,7 +650,7 @@ font-size: 10px !important;  }
 }
 }
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .feature-item {
 width: 98%;
 }
