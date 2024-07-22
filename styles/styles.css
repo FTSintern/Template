@@ -277,7 +277,7 @@ html {
   color: #010f34 !important;
   font-family: sans-serif !important;
   font-weight: 700 !important;
-  text-align: justify;
+  text-align: left;
   font-size: 36px;
 }
 
@@ -1229,11 +1229,13 @@ margin-right: 10px !important;
   font-family: sans-serif;
   font-weight: 600;
   color: #010f34;
+  text-align: left;
 }
 .card-text {
   font-size: 16px;
   font-family: sans-serif;
   font-weight: 500;
+  text-align: left;
 }
 @media (max-width: 1200px) {
   .card-text {
