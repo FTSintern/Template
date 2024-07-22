@@ -1,0 +1,86 @@
+@media all {
+  :root {
+    --theme-color: #0181f5;
+    --title-color: #010f34;
+    --body-color: #788094;
+    --white-color: #ffffff;
+    --body-font: "DM Sans", sans-serif;
+    --main-container: 1220px;
+    --container-gutters: 30px;
+  }
+
+  .th-btn {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 22px 30px;
+    min-width: 144px;
+    border-radius: 10px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  a {
+    color: var(--theme-color);
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+  }
+}
+
+.quotebutton {
+  background-color: #010f34;
+}
+@media (max-width: 1024px) {
+  .quotebutton {
+    font-size: 13px;
+  }
+}
+.aboutbutton {
+  background-color: #010f34;
+}
+
+.herobuttons1 {
+  background-color: #010f34;
+  border: 1px solid 010f34;
+  padding: 25px 30px;
+}
+@media (max-width: 768px) {
+  .herobuttons1 {
+    padding: 18px 22px !important;
+  }
+}
+@media (max-width: 485px) {
+  .herobuttons1 {
+    padding: 20px 22px !important;
+  }
+}
+.herobuttons2:hover {
+  background-color: #007bff;
+}
+
+.herobuttons2 {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+@media (max-width: 485px) {
+  .herobuttons2 {
+    padding: 18px 22px !important;
+  }
+}
+.herobuttons2:hover {
+  border: 1px solid #007bff;
+}
