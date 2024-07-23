@@ -915,7 +915,7 @@ text-align: center;
 @media (max-width: 577px) {
   .testimonial-card {
     margin-left: 10px ;
-    margin-right: 1px;
+    margin-right: 10px;
  }
 }
 .testimonial-card img {
@@ -1497,6 +1497,15 @@ margin-right: 54%;
   .blue-line {
 margin-top: 20px;
 margin-right: 38%;
+}
+}
+
+.paddingright{
+padding-right: 7px !important;
+}
+@media (max-width: 485px) {
+  .paddingright {
+padding-right: 13px !important;
 }
 }
 
