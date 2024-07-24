@@ -390,13 +390,32 @@ html {
 }
 
 .img-fluid{
-  max-width: 100%;
-}
+  max-width: 90%;
+    margin-left: 6%;
 
+}
+@media (max-width: 1440px) {
+  .img-fluid  {
+
+    max-width: 75%;
+    margin-left: 12%;
+
+   }
+}
+@media (max-width: 991px) {
+  .img-fluid  {
+    max-width: 90%;
+
+    margin-left: 0%;
+
+   }
+}
 @media (max-width: 480px) {
   .img-fluid  {
     max-width: 96%;
     height: auto;
+    margin-left: 0%;
+
    }
 }
 @media (max-width: 480px) {
@@ -414,6 +433,15 @@ html {
    .marginleftright{
     margin-left: 1%;
     margin-right: 1%;
+   }
+}
+@media (max-width: 991px) {
+  .mlonly  {
+    margin-left: 2%;
+   }
+   .mlr{
+    margin-left: 2% !important;
+    margin-right: 2% !important;
    }
 }
 
@@ -484,7 +512,7 @@ font-size: 10px !important;  }
 @media (max-width: 991px) {
   .rounded-image  {
     margin-top: 25%;
-    margin-left: -5%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 480px) {
@@ -1107,7 +1135,7 @@ textarea.form-control {
 .footers {
   background-color: #20232a;
   color: #ffffff;
-  padding: 10px 0;
+  padding: 1px 0;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -1484,13 +1512,13 @@ body {
 @media (max-width: 768px) {
   .blue-line {
 margin-top: 20px;
-margin-right: 60%;
+margin-right: 79%;
 }
 }
 @media (max-width: 480px) {
   .blue-line {
 margin-top: 20px;
-margin-right: 54%;
+margin-right: 65%;
 }
 }
 @media (max-width: 370) {
@@ -1508,5 +1536,11 @@ padding-right: 7px !important;
 padding-right: 13px !important;
 }
 }
+.adj{
 
-
+}
+@media (max-width: 768px) {
+  .adj {
+margin-left: 0px !important;
+}
+}
