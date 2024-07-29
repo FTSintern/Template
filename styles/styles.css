@@ -422,7 +422,7 @@ html {
   .logoimage  {
     max-width: 150% !important;
     height: auto;
-    margin-bottom: 43% !important;
+    /* margin-bottom: 43% !important; */
    }
 }
 

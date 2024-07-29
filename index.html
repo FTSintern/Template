@@ -30,7 +30,7 @@
             .logo-bar .col-6 {
                 display: flex;
                 align-items: center;
-                margin-bottom: 60px;
+                /* margin-bottom: 60px; */
             }
 
             .logo-bar .col-6.text-right {
@@ -254,11 +254,11 @@
             color: #868ea0 !important;
         }
 
-        .smallscreen {
+        /* .smallscreen {
             margin-left: 70%;
             position: relative;
             top: 25px;
-        }
+        } */
 
         .imgs {
             margin-left: 5%;
@@ -307,9 +307,9 @@
             </div>
         </div>
         <!-- logo bar -->
-        <div class="container logo-bar mt-5">
+        <div class="container logo-bar">
             <div class="d-flex align-items-center">
-                <div class=" col-md-3 col-sm-6 pl-sm-2">
+                <div class=" col-md-3 col-sm-8 pl-sm-2 logo-col">
                     <img src="assets/images/logo.png" alt="Company Logo" class="img-fluid imgs logoimage">
                 </div>
                 <div class="col-md-3 d-none d-md-flex align-items-center justify-content-start">
@@ -333,8 +333,8 @@
                 <div class="col-md-3 d-none d-md-flex align-items-center justify-content-end">
                     <a class="th-btn quotebutton" tabindex="0" style="">REQUEST A QUOTE</a>
                 </div>
-                <div class="col-6 col-md-3 d-md-none text-center contact-info">
-                    <a class="pb-5 icons smallscreen" type="button" id="menuToggle" data-toggle="modal"
+                <div class="col-6 col-md-3 col-sm-4 d-md-none text-center contact-info mobile-toggle">
+                    <a class="icons smallscreen" type="button" id="menuToggle" data-toggle="modal"
                         data-target="#menuModal" class="icons"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
