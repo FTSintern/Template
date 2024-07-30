@@ -452,6 +452,7 @@ font-size: 10px !important;  }
 .blue-line{
   position: relative;
   display: inline-block;
+  margin-right: 71%;
 }
 .blue-line::after {
   content: "";
@@ -1417,17 +1418,20 @@ body {
  
   }
 }
-
+@media (max-width: 1024px) {
+  .blue-line {
+margin-right: 67%;
+}
 @media (max-width: 768px) {
   .blue-line {
 margin-top: 20px;
-margin-right: 79%;
+margin-right: 78%;
 }
 }
 @media (max-width: 480px) {
   .blue-line {
 margin-top: 20px;
-margin-right: 65%;
+margin-right: 62%;
 }
 }
 @media (max-width: 370) {
