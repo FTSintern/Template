@@ -1421,7 +1421,7 @@ body {
 @media (max-width: 1024px) {
   .blue-line {
 margin-right: 67%;
-}
+}}
 @media (max-width: 768px) {
   .blue-line {
 margin-top: 20px;
@@ -1431,7 +1431,7 @@ margin-right: 78%;
 @media (max-width: 480px) {
   .blue-line {
 margin-top: 20px;
-margin-right: 62%;
+margin-right: 59%;
 }
 }
 @media (max-width: 370) {
