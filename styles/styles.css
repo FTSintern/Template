@@ -1457,3 +1457,17 @@ width: 90% !important;
 margin-left: 4%;
 }
 }
+
+.paddings{
+  padding: 0 10px;
+}
+
+.sizer{
+  padding: 0 4px !important;}
+
+
+  @media (max-width: 485px) {
+    .sizer {
+  padding: 0px 0px !important;
+  }
+  }
